@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CardGameAppDelegate : UIResponder <UIApplicationDelegate>
+@interface CardGameAppDelegate : UIResponder <UIApplicationDelegate> /* git test */
 
 @property (strong, nonatomic) UIWindow *window;
 
