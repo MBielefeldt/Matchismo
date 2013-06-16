@@ -277,6 +277,11 @@
 				CLASSPREFIX = CardGame;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "GN Resound";
+				TargetAttributes = {
+					089D0FAB17535A7F007AA22F = {
+						DevelopmentTeam = 8AQ2Q5KM77;
+					};
+				};
 			};
 			buildConfigurationList = 089D0FA717535A7F007AA22F /* Build configuration list for PBXProject "Matchismo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -437,6 +442,7 @@
 		089D0FD017535A80007AA22F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Matchismo/Matchismo-Prefix.pch";
 				INFOPLIST_FILE = "Matchismo/Matchismo-Info.plist";
@@ -448,6 +454,7 @@
 		089D0FD117535A80007AA22F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Matchismo/Matchismo-Prefix.pch";
 				INFOPLIST_FILE = "Matchismo/Matchismo-Info.plist";
